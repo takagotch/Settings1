@@ -3,7 +3,17 @@
 
 https://bitbucket.org/takagotch/rails-1st-settings/src/master/
 
-
+```
+bundle init
+vi Gemfile
+# gem "rails"
+bundle install
+rails new blog --skip-bundle
+cd blog
+bundle update
+vi Gemfile
+bundle install
+```
 
 ```cmd
 rails g controller top index
