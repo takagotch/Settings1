@@ -320,6 +320,91 @@ vi config/locales/ja.yml
 vi db/seeds/development/members.rb
 rails db:reset
 
+vi app/controllers/members_controller.rb
+vi app/controllers/members_controller.rb
+curl http://localhost:3000/members/avatar.jpg
+vi app/helpers/application_helper.rb
+vi app/views/members/_body.html.erb
+vi app/models/member.rb
+vi app/views/members/_form.html.erb
+vi app/controllers/members_controller.rb
+vi app/controllers/members_controller.rb
+vi app/controllers/members_controller.rb
+vi app/controller/accounts_controller.rb
+vi test/test_helper.rb
+vi test/functional/memers_controller_test.rb
+
+rails g model vote
+
+vi db/migrate/2020207312326_create_vote.rb
+rails db:migrate
+vi app/models/entry.rb
+vi app/models/member.rb
+vi app/models/vote.rb
+vi app/models/member.rb
+vi app/models/vote.rb
+vi db/seeds/development/entries.rb
+rails db:reset
+vi config/routes.rb
+vi app/views/entries/_footer.html.erb
+vi app/views/entries/show.html.erb
+vi app/views/entries/_vote.html.erb
+vi app/controllers/entries_controller.rb
+vi app/controllers/entries_controller.rb
+vi app/views/entries/voted.html.erb
+vi app/views/entries/index.html.erb
+vi config/routes.rb
+vi app/controllers/admin/base.rb
+rails g controller admin/top index
+vi app/controllers/admin/top_controller.rb
+vi app/views/admin/top/index.html.erb
+vi app/views/shared/_header.html.erb
+vi app/controllers/admin/members_controller.rb
+vi app/controllers/admin/members_controller.rb
+vi app/controllers/admin/members_controller.rb
+vi app/controllers/admin/members_controller.rb
+vi app/controllers/admin/members_controller.rb
+vi app/views/admin/members/index.html.erb
+vi app/views/admin/members/show.html.erb
+vi app/views/members/show.html.erb
+vi app/views/admin/members/new.html.erb
+vi app/views/admin/members/new.html.erb
+vi app/views/admin/members/edit.html.erb
+vi app/views/admin/members/edit.html.erb
+vi app/assets/stylesheets/admin.css.scss
+
+vi app/controllers/members_controller.rb
+rm -rf app/controller/members/new.html
+rm -rf app/controller/members/edit.html
+rm -rf app/controller/members/_form.html
+vi app/controllers/members/index.html.erb
+
+cp app/controllers/articles_controller.rb app/controllers/admin
+vp app/views/articles app/views/admin
+vi app/controllers/admin/articles_controller.rb
+vi app/controllers/admin/articles_controller.rb
+vi app/controllers/admin/articles_controller.rb
+vi app/controllers/admin/articles_controller.rb
+vi app/views/admin/articles/index.html.erb
+vi app/views/admin/members/show.html.erb
+vi app/views/admin/members/new.html.erb
+vi app/views/admin/members/new.html.erb
+vi app/views/admin/members/new.html.erb
+rm -rf app/controllers/articles_controller.rb article_params
+rm -rf app/controllers/articles/new.html.erb
+rm -rf app/controllers/articles/edit.html.erb
+rm -rf app/controllers/articles/_form.html.erb
+vi app/controllers/articles_controller.rb
+vi app/views/articles/index.html.erb
+vi app/views/articles/show.html.erb
+rails test:controllers
+vi test/controllers/admin/members_controller_test.rb
+vi test/controller/admin/members_controller_test.rb
+vi test/controller/admin/articles_controller_test.rb
+vi test/controllers/admin/articles_controller_test.rb
+rails test:controllers
+vi test/controllers/admin/top_controller_test.rb
+vi test/integration/manager_articles_test.rb
 ```
 
 ```
