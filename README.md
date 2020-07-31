@@ -285,6 +285,40 @@ rails db:migrate
 rails db:migrate:reset
 vi app/models/member.rb
 vi app/models/entry.rb
+vi config/routes.rb
+vi config/locales/ja.yml
+vi app/models/entry.rb
+vi app/models/entry.rb
+vi app/models/entry.rb
+vi db/seeds.rb
+vi db/seeds/development/entries.rb
+rails db:reset
+rails g controller entries index show new edit
+vi app/controllers/entries_controller.rb
+vi app/views/entries/index.html.erb
+vi app/views/entries/_footer.html.erb
+vi app/views/shared/_header.html.erb
+vi app/views/entries/show.html.erb
+vi app/views/shared/_sidebar.html.erb
+vi app/controllers/entries_controller.rb
+vi app/views/entries/new.html.erb
+vi app/views/entries/edit.html.erb
+vi app/views/entries/_form.html.erb
+vi app/controllers/entries_controller.rb
+vi app/controllers/entries_controller.rb
+rails g model member_image
+vi db/migrate/202007312326_create_member_images.rb
+rails db:migrate
+vi app/models/member.rb
+vi app/models/member_image.rb
+vi app/models/member_image.rb
+vi app/models/member_iamge.rb
+vi app/models/member_image.rb
+vi app/models/member_image.rb
+vi config/locales/ja.yml
+vi config/locales/ja.yml
+vi db/seeds/development/members.rb
+rails db:reset
 
 ```
 
